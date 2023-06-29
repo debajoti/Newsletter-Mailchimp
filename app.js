@@ -35,7 +35,7 @@ app.post("/",function(req,res){
 
     const options = {
         method: "POST",
-        auth: "Newsletter:ef46d58d548b2656faa0bd3321fadfb7-us21"
+        auth: "Newsletter:ef46d58d548b2656faa0bd3321fa58787dfb7-us21"
     }
 
     const request = https.request(url, options, function(response){
